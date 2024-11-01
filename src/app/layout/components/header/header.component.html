@@ -1,0 +1,100 @@
+<header class="text-gray-400 bg-gray-900 body-font">
+  <div
+    class="container mx-auto flex flex-wrap p-5 flex-row md:justify-evenly justify-between items-center"
+  >
+    <a
+      class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+      routerLink="home"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
+        />
+      </svg>
+      <span class="ml-3 text-xl">Bibliotecha</span>
+    </a>
+    <nav
+      class="md:mx-auto hidden md:flex flex-wrap items-center text-base justify-center"
+    >
+      @for (link of links; track link.path) {
+      <a
+        class="mr-5 hover:text-white"
+        routerLink="{{ link.path }}"
+        [routerLinkActive]="active"
+        >{{ link.name }}</a
+      >
+      }
+    </nav>
+    <a
+      routerLink="auth/login"
+      class="cursor-pointer hidden md:inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+      [routerLinkActive]="active"
+      >Login
+      <svg
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        class="w-4 h-4 ml-1"
+        viewBox="0 0 24 24"
+      >
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </a>
+    <button
+      (click)="toggleBurgerMenu()"
+      class="btn-burger md:hidden inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 16 16"
+        fill="currentColor"
+        class="size-6"
+        [ngClass]="{ hidden: burgerActive }"
+        id="burger"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+          clip-rule="evenodd"
+        />
+      </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 16 16"
+        fill="currentColor"
+        class="size-6"
+        [ngClass]="{ hidden: XActive }"
+      >
+        <path
+          d="M5.28 4.22a.75.75 0 0 0-1.06 1.06L6.94 8l-2.72 2.72a.75.75 0 1 0 1.06 1.06L8 9.06l2.72 2.72a.75.75 0 1 0 1.06-1.06L9.06 8l2.72-2.72a.75.75 0 0 0-1.06-1.06L8 6.94 5.28 4.22Z"
+        />
+      </svg>
+    </button>
+    <div class="container top-20 h-screen w-screen bg-gray-800" [ngClass]="{ 'hidden' : XActive}">
+      <nav
+        class="md:mx-auto md:hidden flex flex-wrap flex-col items-center text-base justify-center mt-5"
+      >
+        @for (link of links; track link.path) {
+        <a
+          class="mr-5 hover:text-white text-2xl mb-2"
+          (click)="toggleBurgerMenu()"
+          routerLink="{{ link.path }}"
+          [routerLinkActive]="active"
+          >{{ link.name }}</a
+        >
+        }
+      </nav>
+    </div>
+  </div>
+</header>
