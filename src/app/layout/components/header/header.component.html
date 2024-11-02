@@ -22,18 +22,15 @@
       </svg>
       <span class="ml-3 text-xl">Bibliotecha</span>
     </a>
-    <nav
-      class="md:mx-auto hidden md:flex flex-wrap items-center text-base justify-center"
-    >
-      @for (link of links; track link.path) {
-      <a
-        class="mr-5 hover:text-white"
-        routerLink="{{ link.path }}"
-        [routerLinkActive]="active"
-        >{{ link.name }}</a
-      >
-      }
-    </nav>
+    <div class="w-1/3">
+      <input
+        type="text"
+        id="full-name"
+        name="full-name"
+        placeholder="Search for your favourite book..."
+        class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 focus:bg-transparent text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+      />
+    </div>
     <a
       routerLink="auth/login"
       class="cursor-pointer hidden md:inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
