@@ -7,25 +7,25 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
 })
 export class HomeComponent implements OnInit {
   array: any[] = [];
 
-  constructor(private productsService: ProductsService){}
+  constructor(private productsService: ProductsService) {}
 
-  ngOnInit(): void{
+  ngOnInit(): void {
     this.getProducts();
   }
 
-  getProducts(): void{
+  getProducts(): void {
     this.productsService.getPosts().subscribe({
-      next: (data:any) =>{
-      this.array = data;
-    },
-    error: (err:any)=>{
-      console.log(err);
-    }
-  })
+      next: (data: any) => {
+        this.array = data;
+      },
+      error: (err: any) => {
+        console.log(err);
+      },
+    });
   }
 }

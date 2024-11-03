@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class ProductsService {
-  private getProducts = 'assets/jsons/prod.json';
+  private getProducts = 'assets/jsons/books.json';
 
   constructor(private http: HttpClient) {}
 
