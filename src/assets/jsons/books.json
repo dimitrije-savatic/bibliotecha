@@ -1,107 +1,125 @@
 [
   {
+    "id" : 1,
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "category": "Fiction",
     "grade": 5
   },
   {
+    "id" : 1,
     "title": "1984",
     "author": "George Orwell",
     "category": "Dystopian",
     "grade": 4
   },
   {
+    "id" : 1,
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "category": "Classic",
     "grade": 5
   },
   {
+    "id" : 1,
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
     "category": "Fiction",
     "grade": 3
   },
   {
+    "id" : 1,
     "title": "Moby Dick",
     "author": "Herman Melville",
     "category": "Adventure",
     "grade": 4
   },
   {
+    "id" : 1,
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
     "category": "Romance",
     "grade": 5
   },
   {
+    "id" : 1,
     "title": "Brave New World",
     "author": "Aldous Huxley",
     "category": "Science Fiction",
     "grade": 4
   },
   {
+    "id" : 1,
     "title": "Crime and Punishment",
     "author": "Fyodor Dostoevsky",
     "category": "Philosophical",
     "grade": 4
   },
   {
+    "id" : 1,
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
     "category": "Fantasy",
     "grade": 5
   },
   {
+    "id" : 1,
     "title": "War and Peace",
     "author": "Leo Tolstoy",
     "category": "Historical Fiction",
     "grade": 4
   },
   {
+    "id" : 1,
     "title": "The Odyssey",
     "author": "Homer",
     "category": "Epic",
     "grade": 5
   },
   {
+    "id" : 1,
     "title": "Ulysses",
     "author": "James Joyce",
     "category": "Modernist",
     "grade": 3
   },
   {
+    "id" : 1,
     "title": "The Divine Comedy",
     "author": "Dante Alighieri",
     "category": "Classic",
     "grade": 5
   },
   {
+    "id" : 1,
     "title": "The Iliad",
     "author": "Homer",
     "category": "Epic",
     "grade": 4
   },
   {
+    "id" : 1,
     "title": "Frankenstein",
     "author": "Mary Shelley",
     "category": "Horror",
     "grade": 4
   },
   {
+    "id" : 1,
     "title": "Great Expectations",
     "author": "Charles Dickens",
     "category": "Classic",
     "grade": 4
   },
   {
+    "id" : 1,
     "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
     "category": "Philosophical",
     "grade": 5
   },
   {
+    "id" : 1,
     "title": "Dracula",
     "author": "Bram Stoker",
     "category": "Horror",

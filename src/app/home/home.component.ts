@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './home.component.css',
 })
 export class HomeComponent implements OnInit {
-  array: any[] = [];
+  books: any[] = [];
 
   constructor(private productsService: ProductsService) {}
 
@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
   getProducts(): void {
     this.productsService.getPosts().subscribe({
       next: (data: any) => {
-        this.array = data;
+        this.books = data;
       },
       error: (err: any) => {
         console.log(err);
