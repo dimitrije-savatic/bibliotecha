@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductsService } from '../services/products.service';
 import { CommonModule } from '@angular/common';
+import { BackToTopComponent } from "../back-to-top/back-to-top.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, BackToTopComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
