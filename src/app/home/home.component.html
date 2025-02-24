@@ -1,13 +1,4 @@
 <section class="text-gray-400 bg-gray-900 body-font">
-  <div class="w-1/2 mx-auto mt-10">
-    <input
-      type="text"
-      id="full-name"
-      name="full-name"
-      placeholder="Search for desired book..."
-      class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 focus:bg-transparent text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-    />
-  </div>
   <div class="container px-5 py-16 mx-auto">
     <section class="text-gray-400 bg-gray-900 body-font">
       <div class="container px-5 pt-4 mx-auto">
@@ -21,7 +12,7 @@
       </div>
     </section>
     <div class="flex flex-wrap -m-4">
-      @for (book of books; track $index) { @if (book.id < 13) {
+      @for (book of books; track book.id) { @if (book.id < 7) {
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
           <img
@@ -97,4 +88,5 @@
     </div>
   </div>
   <app-back-to-top></app-back-to-top>
+  <app-carousel></app-carousel>
 </section>

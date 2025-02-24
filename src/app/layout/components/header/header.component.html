@@ -22,23 +22,39 @@
       </svg>
       <span class="ml-3 text-xl">Bibliotecha</span>
     </a>
-    <a
-      routerLink="auth/login"
-      class="cursor-pointer hidden md:inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-      [routerLinkActive]="active"
-      >Login
+    <div class="flex flex-row items-center justify-between w-32">
       <svg
+        xmlns="http://www.w3.org/2000/svg"
         fill="none"
-        stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        class="w-4 h-4 ml-1"
         viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6 cursor-pointer"
       >
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+        />
       </svg>
-    </a>
+      <a
+        routerLink="auth/login"
+        class="cursor-pointer hidden md:inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+        [routerLinkActive]="active"
+        >Login
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-4 h-4 ml-1"
+          viewBox="0 0 24 24"
+        >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </a>
+    </div>
     <button
       (click)="toggleBurgerMenu()"
       class="btn-burger md:hidden inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base"
