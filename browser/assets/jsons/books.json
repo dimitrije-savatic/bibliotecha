@@ -1,0 +1,314 @@
+[
+  {
+    "id" : 1,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "category": "Fiction",
+    "grade": 5
+  },
+  {
+    "id" : 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "Dystopian",
+    "grade": 4
+  },
+  {
+    "id" : 3,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "category": "Classic",
+    "grade": 5
+  },
+  {
+    "id" : 4,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "category": "Fiction",
+    "grade": 3
+  },
+  {
+    "id" : 5,
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "category": "Adventure",
+    "grade": 4
+  },
+  {
+    "id" : 6,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "category": "Romance",
+    "grade": 5
+  },
+  {
+    "id" : 7,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "category": "Science Fiction",
+    "grade": 4
+  },
+  {
+    "id" : 8,
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "category": "Philosophical",
+    "grade": 4
+  },
+  {
+    "id" : 9,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "category": "Fantasy",
+    "grade": 5
+  },
+  {
+    "id" : 10,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "category": "Historical Fiction",
+    "grade": 4
+  },
+  {
+    "id" : 11,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "category": "Epic",
+    "grade": 5
+  },
+  {
+    "id" : 12,
+    "title": "Ulysses",
+    "author": "James Joyce",
+    "category": "Modernist",
+    "grade": 3
+  },
+  {
+    "id" : 13,
+    "title": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "category": "Classic",
+    "grade": 5
+  },
+  {
+    "id" : 14,
+    "title": "The Iliad",
+    "author": "Homer",
+    "category": "Epic",
+    "grade": 4
+  },
+  {
+    "id" : 15,
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "category": "Horror",
+    "grade": 4
+  },
+  {
+    "id" : 16,
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "category": "Classic",
+    "grade": 4
+  },
+  {
+    "id" : 17,
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "category": "Philosophical",
+    "grade": 5
+  },
+  {
+    "id" : 18,
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "category": "Horror",
+    "grade": 4
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "category": "Philosophical",
+    "grade": 5
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "category": "Romance",
+    "grade": 5
+  },
+  {
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "category": "Romance",
+    "grade": 4
+  },
+  {
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "category": "Historical Fiction",
+    "grade": 5
+  },
+  {
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "category": "Romance",
+    "grade": 4
+  },
+  {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "category": "Classic",
+    "grade": 3
+  },
+  {
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "category": "Adventure",
+    "grade": 5
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel Garcia Marquez",
+    "category": "Magical Realism",
+    "grade": 5
+  },
+  {
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "category": "Classic",
+    "grade": 4
+  },
+  {
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "category": "Philosophical",
+    "grade": 4
+  },
+  {
+    "title": "Lolita",
+    "author": "Vladimir Nabokov",
+    "category": "Literary Fiction",
+    "grade": 3
+  },
+  {
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "category": "Satire",
+    "grade": 4
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "category": "Science Fiction",
+    "grade": 5
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "category": "Historical Fiction",
+    "grade": 4
+  },
+  {
+    "title": "Beloved",
+    "author": "Toni Morrison",
+    "category": "Historical Fiction",
+    "grade": 5
+  },
+  {
+    "title": "The Sun Also Rises",
+    "author": "Ernest Hemingway",
+    "category": "Fiction",
+    "grade": 3
+  },
+  {
+    "title": "Invisible Man",
+    "author": "Ralph Ellison",
+    "category": "Fiction",
+    "grade": 4
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "category": "Science Fiction",
+    "grade": 4
+  },
+  {
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "category": "Fiction",
+    "grade": 5
+  },
+  {
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "category": "Philosophical",
+    "grade": 4
+  },
+  {
+    "title": "Emma",
+    "author": "Jane Austen",
+    "category": "Romance",
+    "grade": 4
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "category": "Philosophical",
+    "grade": 5
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "category": "Dystopian",
+    "grade": 4
+  },
+  {
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "category": "Historical Fiction",
+    "grade": 5
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "category": "Science Fiction",
+    "grade": 5
+  },
+  {
+    "title": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "category": "Classic",
+    "grade": 3
+  },
+  {
+    "title": "The Shining",
+    "author": "Stephen King",
+    "category": "Horror",
+    "grade": 4
+  },
+  {
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "category": "Fiction",
+    "grade": 4
+  },
+  {
+    "title": "The Bell Jar",
+    "author": "Sylvia Plath",
+    "category": "Fiction",
+    "grade": 4
+  },
+  {
+    "title": "The Sound and the Fury",
+    "author": "William Faulkner",
+    "category": "Classic",
+    "grade": 3
+  },
+  {
+    "title": "On the Road",
+    "author": "Jack Kerouac",
+    "category": "Beat Generation",
+    "grade": 3
+  }
+]
